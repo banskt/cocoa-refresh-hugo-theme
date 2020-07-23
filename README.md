@@ -1,11 +1,16 @@
-# Cocoa
+# Cocoa Refresh
 
-A consistent and responsive [Hugo](https://gohugo.io) [theme](https://github.com/spf13/hugoThemes/) with clean typography. The primary typefaces are Open Sans, Raleway, and Ubuntu Mono.
+__Cocoa Refresh__ is a minimalist and responsive [Hugo](https://gohugo.io) [theme](https://github.com/spf13/hugoThemes/).
 
-[__Demo__](https://themes.gohugo.io/theme/cocoa/) / [__Screenshots__](https://github.com/nishanths/cocoa-hugo-theme/blob/master/screenshots.md)
+> This is a fork from the original [Cocoa](https://github.com/nishanths/cocoa-hugo-theme/) theme with some changes and hopefully regular updates. 
+
+<!-- [__Demo__](https://themes.gohugo.io/theme/cocoa/) / [__Screenshots__](https://github.com/nishanths/cocoa-hugo-theme/blob/master/screenshots.md) -->
 
 ## Features
+__Updated features__
+* Open external links in separate tab
 
+__Original [Cocoa](https://github.com/nishanths/cocoa-hugo-theme/) features__
 * Responsive
 * Suited for blogging and personal webpages
 * Disqus support
