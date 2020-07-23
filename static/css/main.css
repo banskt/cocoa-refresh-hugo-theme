@@ -5,7 +5,7 @@
   color: #666 !important;
 }
 .accent {
-  color: #428bca !important;
+  color: #c8635a !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -544,7 +544,7 @@ section.main {
   }
 }
 a {
-  color: #428bca;
+  color: #c8635a;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -552,7 +552,7 @@ a {
   transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 a:hover {
-  color: #2a6496;
+  color: #a34037;
 }
 img {
   max-width: 100%;
@@ -631,7 +631,7 @@ section.main .content .markdown pre code {
   font-size: 1rem;
 }
 section.main .content .markdown a code {
-  color: #428bca !important;
+  color: #c8635a !important;
 }
 section.main .content .markdown a code:hover {
   text-decoration: underline;

@@ -13,6 +13,12 @@ In time, he learns how to fly and carves a niche for himself as a sandwich-maker
 
 <img src="//placehold.it/300x300" class="profile">
 
+He learns to create rainbows from the colors and finds three unique feathers:
+
+1. one from the lord of the foxes, with bright yellow strokes.
+2. another from the depth of the emerald mines, which were long abandoned by mankind.
+3. the last from the dreams of the mermainds, and this he values the most.
+
 <br />
 
 [About this site](colophon/)
