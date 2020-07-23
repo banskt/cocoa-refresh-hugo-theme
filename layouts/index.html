@@ -16,7 +16,7 @@
                 {{ $blogPosts := (where .Site.RegularPages "Section" "blog") }}
                 {{ $nbPosts := len $blogPosts }}
                 {{ if gt $nbPosts 0 }}
-                    <div class="page-heading">
+                    <div class="page-heading" style="margin-top:2em;">
                         {{ if (isset $.Site.Params "latestpost_heading") }}{{ $.Site.Params.latestpost_heading }}{{ else }}{{ i18n "latestPosts" }}{{ end }}
                     </div>
                     <ul>
