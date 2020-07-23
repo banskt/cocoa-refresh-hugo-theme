@@ -8,7 +8,10 @@ __Cocoa Refresh__ is a minimalist and responsive [Hugo](https://gohugo.io) [them
 
 ## Features
 __Updated features__
+* Customizable blog heading on homepage and blog list page
+* Greeting on homepage
 * Open external links in separate tab
+* Serve emails from Javascript, no hardcoded emails
 
 __Original [Cocoa](https://github.com/nishanths/cocoa-hugo-theme/) features__
 * Responsive

@@ -29,3 +29,36 @@
 </script>
 <!-- End Piwik Code -->
 {{ end }}
+
+<!-- External URLs will open in separate tab -->
+{{ if .Site.Params.external_url_redirect }}
+<script type="text/javascript">
+    function link_is_external(link_element) {
+        return (link_element.host !== window.location.host);
+    }
+
+    var links = document.links;
+    var lcount = links.length;
+    var mstring = "Links: "
+    for (var i = 0; i < lcount; i++) {
+        if (link_is_external(links[i])) {
+            mstring = mstring + "Yes" + " ";
+            links[i].target = '_blank';
+            links[i].rel = 'noopener';
+        }
+    }
+</script>
+{{ end }}
+
+<script type="text/javascript">
+    var pattern = /serve_email_fromjs/;
+    var mailuser = "{{ .Site.Params.email_username }}";
+    var mailclient = "{{ .Site.Params.email_client }}";
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+       if (pattern.test(links[i].href)) {
+            links[i].href = "mailto:" + mailuser + "@" + mailclient;
+       }
+    }
+</script>
